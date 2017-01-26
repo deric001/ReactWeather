@@ -19,7 +19,7 @@ var About = (props) => {
         </p>
         <ul>
           <li>
-            <a href="https://facebook.gitbug.io/react">React</a>
+            <a href="https://facebook.github.io/react">React</a>
              - JavaScript Framework Used
           </li>
           <li>
