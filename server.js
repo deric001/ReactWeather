@@ -1,9 +1,8 @@
 var express = require ('express');
 //create our app
 var app = express();
-
 // get the port from the haduko environment variable
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(function (req, resp, next) {
   if(req.headers['x-forwarded-proto'] == 'https') {
